@@ -180,7 +180,7 @@ void retro_get_system_info(struct retro_system_info *info)
 void retro_get_system_av_info(struct retro_system_av_info *info)
 {
     info->timing.fps            = FPS;
-    info->timing.sample_rate    = 44100.0;
+    info->timing.sample_rate    = 22050.0;
 
     info->geometry.base_width   = 320;
     info->geometry.base_height  = 240;
